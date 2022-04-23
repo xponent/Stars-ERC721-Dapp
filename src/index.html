@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Notary Dapp</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table width="100%" border="0" cellpadding="10">
+  <tbody>
+    <tr>
+      <td><h1>Star Notary NFT dApp.</h1></td>
+      <td><button type="button" id="metaMask" class="btn btn-dark">Connect Wallet</button></td>
+    </tr>
+  </tbody>
+</table>
+	<hr>
+	<br>
+<table width="75%" align="center" border="0" cellpadding="20">
+    <thead>
+    <tr>
+        <th><h2>Create a Star</h2></th>
+        <th><h2>Search Stars</h2></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <h6>
+                <label for="starName">Star Name:</label>
+                <input type="text" id="starName"/>
+            </h6>
+        </td>
+        <td>
+            <h6>
+                <label>Star Name:</label>
+            </h6>
+            <p id="searchStarName"></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p id="starCreatedStatus"></p>
+        </td>
+        <td>
+            <h6>
+                <label for="starId">Star ID:</label>
+                <input type="text" id="starId"/>
+            </h6>
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td><button id="createStar">Create Star</button></td>
+        <td><button id="searchStar">Search Star</button></td>
+    </tr>
+    </tfoot>
+</table>
+
+<span id="status"></span>
+
+<br>
+<script src="/dist/main.js"></script>
+
+</body>
+</html>
